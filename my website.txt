@@ -1,0 +1,292 @@
+<link rel="stylesheet" href="style.css"> 
+your GitHub repository must contain:
+
+style.css 
+
+
+<!DOCTYPE html> 
+<html lang="en"> 
+ 
+<head> 
+    <meta charset="UTF-8"> 
+ 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+ 
+    <title>My First Website</title> 
+ 
+    <style> 
+ 
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            background-color: #FFF5F9; 
+            color: #5A3D4F; 
+        } 
+ 
+        header { 
+            background-color: #D8B4E2; 
+            color: white; 
+            text-align: center; 
+            padding: 30px; 
+        } 
+ 
+        nav { 
+            background-color: #E98FB3; 
+            text-align: center; 
+            padding: 15px; 
+        } 
+ 
+        nav a { 
+            color: white; 
+            text-decoration: none; 
+            margin: 20px; 
+            font-weight: bold; 
+        } 
+ 
+        nav a:hover { 
+            color: yellow; 
+        } 
+ 
+        section { 
+            background-color: white; 
+            margin: 25px auto; 
+            padding: 25px; 
+            width: 80%; 
+            border-radius: 10px; 
+            box-shadow: 0 2px 8px gray; 
+        } 
+ 
+        h2 { 
+            color: #D85C8A; 
+        } 
+ 
+        img { 
+            display: block; 
+            width: 300px; 
+            margin: 20px auto; 
+            border-radius: 10px; 
+        } 
+ 
+        table { 
+            width: 100%; 
+            border-collapse: collapse; 
+        } 
+ 
+        th, td { 
+            border: 1px solid #999; 
+            padding: 10px; 
+            text-align: center; 
+        } 
+ 
+        th { 
+            background-color: #E98FB3; 
+            color: white; 
+        } 
+ 
+        footer { 
+            background-color: #C86B91; 
+            color: white; 
+            text-align: center; 
+            padding: 20px; 
+            margin-top: 30px; 
+        } 
+ 
+        .button { 
+            display: inline-block; 
+            background-color: #F28DB2; 
+            color: white; 
+            padding: 12px 20px; 
+            text-decoration: none; 
+            border-radius: 5px; 
+        } 
+ 
+        .button:hover { 
+            background-color: #D95F8D; 
+        } 
+ 
+    </style> 
+</head> 
+ 
+<body> 
+ 
+    <header> 
+        <h1>🦋 ABOUT ME 🦋</h1> 
+        <p>Created Using Notepad and HTML</p> 
+    </header> 
+ 
+    <nav> 
+        <a href="#home">Home</a> 
+        <a href="#about">About</a> 
+        <a href="#topic">My Topic</a> 
+        <a href="#contact">Contact</a> 
+    </nav> 
+ 
+    <section id="home"> 
+ 
+        <h2>Welcome!</h2> 
+ 
+        <p> 
+            Good Morning Sir, Good Moring Classmate!!!!. 
+            Gusto mo ba akong makilala, tara at dalawin mo ang website ko.I  
+        </p> 
+ 
+        <p> 
+            This website show my self. 
+        </p> 
+ 
+    </section> 
+ 
+    <section id="about"> 
+ 
+        <h2>About Me</h2> 
+ 
+        <p> 
+            My name is <strong>ROSE JANE R. NEBREJA</strong>. 
+            Dalawangput(20) at nakatira sa Danawan Libmanan Camarines Sur
+            at kasalukuyang nag aaral sa Dr. Nelson A. Mejia National High
+            School
+        </p> 
+ 
+    <h2>MY PICTURES</h2>
+
+                               Intrams
+        <img src="fighting.jpg" alt="Intrams" width="300px" height="250px">
+                               Swimming
+        <img src="mirror.jpg" alt="Swimming" width="300px" height="250px">
+
+        <p> 
+            I am interested in Sports,
+            Animals, and Social Media. 
+        </p> 
+ 
+        <ul> 
+            <li>Volleyball</li> 
+            <li>Basketball</li> 
+            <li>Dog</li> 
+            <li>Cat</li>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>Tiktok</li>
+            <li>Youtube</li>
+        </ul> 
+ 
+    </section> 
+
+    <section id="topic">
+       
+       <h2>My Hobbies</h2> 
+
+        <p> 
+        During my free time, I enjoy doing the following activities: 
+        </p> 
+
+        <ul> 
+        <li>Playing with pets</li> 
+        <li>Watching movies</li> 
+        <li>Listening to music</li> 
+        <li>Reading Wattpad</li> 
+        <li>Playing online games</li> 
+        </ul> 
+
+    </section>
+
+       <section id="topic">
+
+           <h2>My Favorite Topic</h2> 
+       <p> 
+            My favorite movie is 
+            <strong>Climate Change</strong>. 
+       </p>
+
+           <video width="480px" height="350px" controls>
+                <source src="climate.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+           </video>
+
+    <h2><strong>Why I Favorite this topic<strong></h2> 
+
+            <li>It is important for our future.</li> 
+            <li>I am interested in nature and how we can protect it.</li> 
+            <li>I can see the effects of climate change in our daily lives.</li> 
+            <li>Climate change is a timely and important topic to discuss.</li> 
+            <li>I believe that we can do something to reduce its effects.</li>
+   
+
+    </section>
+
+    <section id="topic"> 
+ 
+        <h2>My Favorite Movie</h2> 
+ 
+        <p> 
+            My favorite movie is 
+            <strong>Ogie and The Cockroaches</strong>. 
+        </p> 
+ 
+            <video width="480px" height="350px" controls>
+                <source src="oggy.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+ 
+        <h2><strong>Why I favorite this movie<strong></h2> 
+ 
+        <p> 
+            <li>It makes me laugh</li> 
+            <li>Its Remind me of My Childhood</li> 
+            <li>It Simple and entertaining</li> 
+            <li>Funny characters</li> 
+            <li>My Comfort show</li>
+        <p> 
+ 
+    </section> 
+ 
+    <section> 
+ 
+        <h2>MY SOCIAL MEDIA</h2> 
+ 
+        <table> 
+ 
+            <tr> 
+                <th>TIKTOK</th> 
+                <th>FACEBOOK</th> 
+                <th>INSTAGRAM</th> 
+            </tr> 
+ 
+            <tr> 
+                <td><a href="https://www.tiktok.com/@jen_jeneyy" target="_blank">TikTok</a></td> 
+                <td><a href="https://www.facebook.com/Rose Jane R. Nebreja" target="_blank">Facebook</a></td> 
+                <td><a href="https://www.instagram.com/jianexseeyy" target="_blank">Instagram</a></td> 
+            </tr>
+ 
+        </table> 
+
+ 
+    <section id="contact"> 
+ 
+        <h2>Contact Me</h2> 
+ 
+        <p> 
+            You can contact me through my Facebook Account. 
+        </p> 
+ 
+        <a class="button" 
+           href="mailto:student@example.com"> 
+           Send Me an Email 
+        </a> 
+    </section>
+     
+ 
+    <footer> 
+ 
+        <p> 
+            © 2026 ABOUT ME 
+        </p> 
+ 
+        <p> 
+            Created by: ROSE JANE R. NEBREJA 
+        </p> 
+ 
+    </footer> 
+ 
+</body> 
+</html> 
